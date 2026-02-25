@@ -1,4 +1,7 @@
 import './style.css';
 import {App} from './src/todos/app';
+import todoStore from './store/todo.store';
 
-App('#app')
+
+App('#app');
+todoStore.initStore();

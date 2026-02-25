@@ -5,6 +5,8 @@ import html from './app.html?raw';
  */
 
 export const App = (elementId)=>{
+    
+
     //cuando la función App() se llama
     (()=>{
         const app = document.createElement('div');
